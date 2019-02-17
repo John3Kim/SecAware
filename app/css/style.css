@@ -128,6 +128,7 @@ html {
 
   width: 75%;
   margin: 0 auto;
+  padding-bottom: 100px;
 
 }
 
@@ -169,5 +170,154 @@ html {
 
   opacity: .85;
   transition: all 0.3s ease;
+
+}
+
+/* News */
+
+.news-content {
+
+  width: 100%;
+
+}
+
+.news {
+
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.news .block {
+
+  margin: 0 auto;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.10);
+  margin-top: 50px;
+  position: relative;
+  text-align: center;
+
+}
+
+#one {
+
+  background: #000 url('https://130e178e8f8ba617604b-8aedd782b7d22cfe0d1146da69a52436.ssl.cf1.rackcdn.com/report-facebook-faces-multi-billion-dollar-us-privacy-fine-showcase_image-3-a-12025.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#two {
+
+  background: #000 url('https://images.techhive.com/images/article/2017/05/ransom.wanadecryptor-800x506-100722589-large.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#three {
+
+  background: #000 url('https://media.wired.com/photos/59c425ad2b229d0adc55a019/master/w_582,c_limit/Equifax-TopArt-AP_17262506258978.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#four {
+
+  background: #000 url('https://media.wired.com/photos/5a9825b9b2b92b689be91373/master/w_582,c_limit/GettyImages-844027182.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#five {
+
+  background: #000 url('https://media.wired.com/photos/5a8610a5f6b8e47907fd8935/master/w_582,c_limit/NotPetya-Russia-RTX4NQB6.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+#six {
+
+  background: #000 url('https://media.wired.com/photos/5ab5a904d9ba365326af4c24/master/w_582,c_limit/collegecampus-126903807.jpg');
+  background-size: cover;
+  background-position: center;
+
+}
+
+.news .block h1 {
+
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  position: relative;
+
+}
+
+.home {
+
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+
+.home a {
+
+  background-color: #444B55;
+  padding: 15px 45px 15px 45px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.10);
+  transition: all 0.3s ease;
+
+}
+
+.news .block p {
+
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.2rem;
+  position: relative;
+
+}
+
+.block .green-line {
+
+  position: relative;
+  margin: 0 auto;
+  margin-bottom: 20px;
+
+}
+
+.news .block .bk {
+
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  opacity: .50;
+  position: absolute;
+  border-radius: 5px;
+
+}
+
+.news .block a {
+
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+  position: relative;
 
 }
