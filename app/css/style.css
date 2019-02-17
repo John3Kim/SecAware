@@ -1,0 +1,173 @@
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+
+  font-size: 16px;
+
+}
+
+/* Intro */
+
+.top-line {
+
+  width: 100%;
+  height: 10px;
+  background-color: #444B55;
+
+}
+
+.intro-content {
+
+  width: 100%;
+  background-color: #5E6673;
+
+}
+
+.intro {
+
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+
+}
+
+.intro h1 {
+
+  font-family: 'Poppins', sans-serif;
+  padding: 0px;
+  margin: 0px;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 3.5rem;
+
+}
+
+.green-line {
+
+  width: 60px;
+  height: 4px;
+  background-color: #5BD2AB;
+
+}
+
+/* Tutorial */
+
+.tutorial-content {
+
+  width: 100%;
+
+}
+
+.tutorial {
+
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+
+}
+
+.tutorial h2 {
+
+  text-align: center;
+  color: #5E6673;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+
+}
+
+.tutorial p {
+
+  text-align: center;
+  color: #5E6673;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 300;
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+.about {
+
+  padding-bottom: 50px;
+
+}
+
+.one-sec {
+
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.one-sec h3 {
+
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: #5E6673;
+
+}
+
+.one-sec img {
+
+  width: 100%;
+  padding-bottom: 50px;
+
+}
+
+.one-sec p {
+
+  width: 75%;
+  margin: 0 auto;
+
+}
+
+/* End */
+
+.end {
+
+  width: 100%;
+  background-color: #5E6673;
+
+}
+
+.end-content {
+
+  padding-top: 100px;
+  padding-bottom: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.end-content a {
+
+  background-color: #5BD2AB;
+  padding: 15px 45px 15px 45px;
+  border-radius: 100px;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.1rem;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.10), 0 2px 4px rgba(0,0,0,0.10);
+  transition: all 0.3s ease;
+
+}
+
+.end-content a:hover {
+
+  opacity: .85;
+  transition: all 0.3s ease;
+
+}

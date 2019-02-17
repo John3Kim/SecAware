@@ -1,0 +1,148 @@
+
+html, body {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+html {
+
+  font-size: 16px;
+
+}
+
+.dash-content {
+
+  width: 100%;
+  height: 100%;
+
+}
+
+body {
+
+  background-color: #eee;
+
+}
+
+/* Menu */
+
+.menu {
+
+  width: 25%;
+  height: 100%;
+  float: left;
+  background-color: #5E6673;
+  position: fixed;
+  border-radius: 2px;
+
+}
+
+.menu-content {
+
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+.menu-content h1 {
+
+  text-align: center;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+
+}
+
+.links {
+
+  text-align: center;
+
+}
+
+.links a {
+
+  display: block;
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  transition: all 0.3s ease;
+  padding: 10px;
+  font-size: 1.5rem;
+  margin: 0;
+
+}
+
+.links img {
+
+  padding: 10px;
+  height: 20px;
+
+}
+
+.links a:hover {
+
+  text-decoration: underline;
+  transition: all 0.3s ease;
+
+}
+
+/* Chat */
+
+.chat {
+
+  width: 75%;
+  min-height: 100%;
+  float: right;
+  background-color: #eee;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.chat-content {
+
+  width: 95%;
+  height: 95%;
+
+}
+
+.inputs {
+
+  display: inline;
+
+}
+
+.inputs input[type="text"] {
+
+  width: 100%;
+  margin: 0 auto;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  height: 70px;
+  border-radius: 100px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: #5E6673;
+  padding-left: 25px;
+  padding-right: 75px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.05), 0 3px 6px rgba(0,0,0,0.05);
+
+}
+
+.inputs input[type="submit"] {
+
+  cursor: pointer;
+  margin-left: -65px;
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  background-color: #5BD2AB;
+  color: white;
+  border: 0;
+  -webkit-appearance: none;
+
+}
